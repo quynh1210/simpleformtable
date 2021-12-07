@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table{
+            background:lightyellow;
+            lable: blue;
+            font: caption;
+        }
+    </style>
+</head>
+<body>
+<table style="color: #001ba0">
+    <tr>
+        <td colspan="3" style="background: aquamarine"><h3>ĐĂNG KÝ HỌC VIÊN</h3></td>
+    </tr>
+    <tr>
+        <td colspan="1"> <label for="fullname">Họ và tên:</label>
+        </td>
+        <td><input id="fullname" name="fullname" type="text"></td>
+    </tr>
+    <tr>
+        <td colspan="1"><label for="date">Ngày sinh:</label>
+        <td colspan="1"><input id="date" name="Ngày sinh" type="date"></td>
+    </tr>
+    <tr>
+        <td colspan="1"><label for="sex">Giới tính: </label></td>
+        <td><label for="female">Female </label>
+            <input id="female" name="sex" type="radio" value="female"></td>
+        <td><label for="male">Male </label>
+            <input id="male" name="sex" type="radio" value=Male"></td>
+    </tr>
+    <tr>
+        <td colspan="1"><label for="Class"> Lớp</label></td>
+        <td> <select name="select class" id="class">
+        <option value="class" selected>Chọn lớp</option>
+        <option value="C11">C1121g1</option>
+        <option value="C10">C1021g1</option>
+        <option value="C09">C0921g1</option>
+        <option value="C08">C0821g1</option>
+    </select></td>
+
+    </tr>
+    <tr>
+        <td colspan="1"> <label for="Email"> Email</label></td>
+        <td><input id="email" name="email" type="email"></td>
+    </tr>
+    <tr>
+        <td colspan="1"><label for="address"> Địa chỉ</label></td>
+        <td><input id="Địa chỉ" name="address" type="text"></td>
+    </tr>
+    <tr>
+        <td colspan="1"><label for="number"> Điện thoại</label></td>
+        <td><input id="number" name="Điện thoại" type="text"></td>
+    </tr>
+    <tr>
+        <td colspan="1"></td>
+        <td>
+            <form id="formRegister" name="Đăng ký"/>
+            <button>Đăng ký</button>
+            <form id="ResetForm" name="Nhập lại"/>
+            <button>Nhập lại</button>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
